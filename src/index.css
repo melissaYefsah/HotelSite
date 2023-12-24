@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer-links {
+  /*padding: 5px; /* Add padding for spacing */
+  background-color: #333; /* Add a background color */
+  border-radius: 5px; /* Add rounded corners */
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  font-size: 14px;
+}
+
+.footer-links h5 {
+  color: #fff; /* Set text color to white */
+  margin-bottom: 10px; /* Add spacing below the heading */
+
+}
+
+.footer-links a {
+  color: #fff; /* Set link color to white */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+.footer-links a:hover {
+  color:gold; /* Add underline on hover */
+}
+
+h5{
+  color: gold;
+  padding:10px;
+}
+
